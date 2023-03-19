@@ -279,16 +279,68 @@ input:focus {
 
 .quest:hover {
     transform: scale(1.05);
-    /* background-color: rgb(14, 92, 116);
-    color: white;
-    fill: white; */
+}
+
+.quest:nth-child(1):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest58_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(2):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest54_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(3):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest57_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(4):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest52_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(5):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest53_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(6):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest50_01.jpg);
+    background-position: center;
+}
+
+.quest:nth-child(7):hover {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.9)
+      ), url(img/quest49_01.jpg);
+    background-position: center;
 }
 
 .announce {
     padding: 0.5rem 0.5rem;
     letter-spacing: 0.8px;
 }
-
 
 
 .announce h2 {

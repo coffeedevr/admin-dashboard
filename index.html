@@ -20,7 +20,7 @@
         <nav class="sidebar">
             <div class="sidebar-logo">
                 <img src="img/expeditionemblem.png" height="75px" width="75px" alt="huntingguildlogo">
-                <h1>Dashboard</h1>
+                <h1>DASHBOARD</h1>
             </div>
             <ul class="profile-links">
                 <li>
@@ -89,13 +89,13 @@
                         <path
                             d="M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z" />
                     </svg>
-                    <img class="small-pfp" src="img/images.jpeg" alt="">
+                    <img class="small-pfp" src="img/images.jpg" alt="">
                     <p>Master Hojo</p>
                 </div>
             </div>
             <div class="lower-header">
                 <div class="user-greeting">
-                    <img src="img/images.jpeg" height="80px" width="80px" alt="">
+                    <img src="img/images.jpg" height="80px" width="80px" alt="">
                     <div class="msg-container">
                         <p>Hi there,</p>
                         <p>Master Hojo</p>
@@ -110,7 +110,17 @@
         </div>
         <div class="main-dashboard">
             <div class="admin-content">
-                <h1 class="header-text">Current Quests</h1>
+                <div class="quest-header">
+                    <h1 class="header-text">Current Quests</h1>
+                    <div class="">
+                        <label for="sort">Sort by:</label>
+                        <select name="sort" id="sort">
+                            <option value="objective">Objective</option>
+                            <option value="locale">Locale</option>
+                            <option value="condition">Condition</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="content-wrapper">
                     <div class="card-wrapper quest">
                         <h3>Memories of That Day</h3>
@@ -120,17 +130,17 @@
                         </p>
                         <div class="content-quest-controls">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>heart</title>
+                                <title>Favorite</title>
                                 <path
                                     d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>file-edit-outline</title>
+                                <title>Edit Quest</title>
                                 <path
                                     d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-                                <title>checkbox-marked</title>
+                                <title>Mark as Complete</title>
                                 <path
                                     d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
                             </svg>
@@ -144,17 +154,17 @@
                         </p>
                         <div class="content-quest-controls">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>heart</title>
+                                <title>Favorite</title>
                                 <path
                                     d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>file-edit-outline</title>
+                                <title>Edit Quest</title>
                                 <path
                                     d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-                                <title>checkbox-marked</title>
+                                <title>Mark as Complete</title>
                                 <path
                                     d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
                             </svg>
@@ -168,17 +178,17 @@
                         </p>
                         <div class="content-quest-controls">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>heart</title>
+                                <title>Favorite</title>
                                 <path
                                     d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>file-edit-outline</title>
+                                <title>Edit Quest</title>
                                 <path
                                     d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-                                <title>checkbox-marked</title>
+                                <title>Mark as Complete</title>
                                 <path
                                     d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
                             </svg>
@@ -192,17 +202,89 @@
                         </p>
                         <div class="content-quest-controls">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>heart</title>
+                                <title>Favorite</title>
                                 <path
                                     d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <title>file-edit-outline</title>
+                                <title>Edit Quest</title>
                                 <path
                                     d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-                                <title>checkbox-marked</title>
+                                <title>Mark as Complete</title>
+                                <path
+                                    d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-wrapper quest">
+                        <h3>Apex Zinogre Emergency</h3>
+                        <p><b>Objective:</b><br>Slay an Apex Zinogre<br><br>
+                            <b>Locale:</b><br>Flooded Forest<br><br>
+                            <b>Conditions:</b><br>HR 8 or higher
+                        </p>
+                        <div class="content-quest-controls">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Favorite</title>
+                                <path
+                                    d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Edit Quest</title>
+                                <path
+                                    d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                                <title>Mark as Complete</title>
+                                <path
+                                    d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-wrapper quest">
+                        <h3>Advanced: Crimson Calamity</h3>
+                        <p><b>Objective:</b><br>Slay a Crimson Glow Valstrax<br><br>
+                            <b>Locale:</b><br>Infernal Springs<br><br>
+                            <b>Conditions:</b><br>HR 8 or higher
+                        </p>
+                        <div class="content-quest-controls">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Favorite</title>
+                                <path
+                                    d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Edit Quest</title>
+                                <path
+                                    d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                                <title>Mark as Complete</title>
+                                <path
+                                    d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-wrapper quest">
+                        <h3>A Good Old-Fashioned Rampage</h3>
+                        <p><b>Objective:</b><br>Defend the final gate<br><br>
+                            <b>Locale:</b><br>Red Stronghold<br><br>
+                            <b>Conditions:</b><br>HR 8 or higher
+                        </p>
+                        <div class="content-quest-controls">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Favorite</title>
+                                <path
+                                    d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>Edit Quest</title>
+                                <path
+                                    d="M10 20H6V4H13V9H18V12.1L20 10.1V8L14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H10V20M20.2 13C20.3 13 20.5 13.1 20.6 13.2L21.9 14.5C22.1 14.7 22.1 15.1 21.9 15.3L20.9 16.3L18.8 14.2L19.8 13.2C19.9 13.1 20 13 20.2 13M20.2 16.9L14.1 23H12V20.9L18.1 14.8L20.2 16.9Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                                <title>Mark as Complete</title>
                                 <path
                                     d="M3 4H4V3H18V4H17V5H5V17H17V11H18V10H19V18H18V19H4V18H3V4M6 9H8V10H9V11H10V12H12V11H13V10H14V9H15V8H16V7H17V6H18V5H19V4H21V6H20V7H19V8H18V9H17V10H16V11H15V12H14V13H13V14H12V15H10V14H9V13H8V12H7V11H6V9Z" />
                             </svg>
@@ -217,20 +299,20 @@
                         <h2 class="card-title-1">Master Rank Exam</h2>
                         <p>The MR Exam is currently on-going!
                             Head to your <a href="">Guild Card Page</a> and register now if you are interested in being
-                            promoted.
+                            promoted. <a href="">Read more.</a>
                         </p>
                         <hr>
                     </div>
                     <div class="announce card-2">
                         <h2 class="card-title-2">Pal Friends Day Care Re-Opens</h2>
                         <p>Pal Friends Day Care is now open again. All registerd Hunters can again use the facility as
-                            long as you present your Guild Card.</p>
+                            long as you present your Guild Card. <a href="">Read more.</a></p>
                         <hr>
                     </div>
                     <div class="announce card-3">
                         <h2 class="card-title-3">Annual Guild Festival</h2>
                         <p>Pal Friends Day Care is now open again. All registerd Hunters can again use the facility as
-                            long as you present your Guild Card.</p>
+                            long as you present your Guild Card. <a href="">Read more.</a></p>
                         <hr>
                     </div>
                 </div>
@@ -240,17 +322,35 @@
                 <div class="trending-card">
                     <div class="card-wrapper">
                         <ul class="trending-list">
-                            <li><img class="small-pfp" src="img/minoto.png">
-                                <p><b>Minoto</b><br>@minototwin</p>
+                            <li>
+                                <div class="trending-profile"><img class="small-pfp" src="img/minoto.png">
+                                    <p><b>Minoto</b><br>@minototwin</p>
+                                </div>
+                                <p>130k 👍</p>
                             </li>
-                            <li><img class="small-pfp" src="img/hinoa.png">
-                                <p><b>Hinoa</b><br>@iamhinoa</p>
+                            <li>
+                                <div class="trending-profile"><img class="small-pfp" src="img/hinoa.png">
+                                    <p><b>Hinoa</b><br>@iamhinoa</p>
+                                </div>
+                                <p>127k 👍</p>
                             </li>
-                            <li><img class="small-pfp" src="img/fiorayne.png">
-                                <p><b>Fiorayne</b><br>@fiorayne123</p>
+                            <li>
+                                <div class="trending-profile"><img class="small-pfp" src="img/fiorayne.png">
+                                    <p><b>Fiorayne</b><br>@fiorayne123</p>
+                                </div>
+                                <p>100k 👍</p>
                             </li>
-                            <li><img class="small-pfp" src="img/utsushi.png">
-                                <p><b>Utsushi</b><br>@ninjaboy</p>
+                            <li>
+                                <div class="trending-profile"><img class="small-pfp" src="img/utsushi.png">
+                                    <p><b>Utsushi</b><br>@ninjaboy</p>
+                                </div>
+                                <p>95k 👍</p>
+                            </li>
+                            <li>
+                                <div class="trending-profile"><img class="small-pfp" src="img/handler.png">
+                                    <p><b>The Handler</b><br>@cutiepiehandler</p>
+                                </div>
+                                <p>90k 👍</p>
                             </li>
                         </ul>
                     </div>

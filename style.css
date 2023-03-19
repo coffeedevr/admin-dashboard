@@ -139,7 +139,7 @@ input:focus {
     flex-direction: column;
     background-color: rgb(14, 92, 116);
     color: white;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     gap: 2rem;
 }
 
@@ -330,4 +330,12 @@ input:focus {
 
 .secondary-links li {
     cursor: pointer;
+}
+
+.footer {
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
